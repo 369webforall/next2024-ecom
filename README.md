@@ -4,4 +4,4 @@ nextjs project with tailwind css, shadcn, postgresql, prisma orm
 
 1- setup next app with shadcn
 2- Page layout
-3-
+3- list products
