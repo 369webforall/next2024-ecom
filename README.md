@@ -16,3 +16,5 @@ nextjs project with tailwind css, shadcn, postgresql, prisma orm
 "seed": "ts-node db/seed.ts"
 }
 }
+
+6. load products from database

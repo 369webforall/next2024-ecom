@@ -1,13 +1,16 @@
-import ProductList from "@/components/shared/products/product-list";
-import sampleData from "@/lib/sample-data";
+import ProductList from "@/components/shared/product/product-list";
+import prisma from "@/prisma/client";
 
-export default function Home() {
+async function Home() {
+  const products = await prisma.product.findMany();
   return (
     <div>
       <div className="space-y-8">
         <h2 className="h2-bold">Latest Products</h2>
-        <ProductList data={sampleData.products} />
+        <ProductList data={products} />
       </div>
     </div>
   );
 }
+
+export default Home;
