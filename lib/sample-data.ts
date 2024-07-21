@@ -20,7 +20,7 @@ const sampleData = {
       slug: "lacoste-tennis-x-novak-djokovic-sportsuit-jacket",
       category: "Men's Sweatshirts",
       images: ["/assets/images/p2-1.jpeg", "/assets/images/p2-2.jpeg"],
-      price: "199.90",
+      price: "199.9",
       brand: "Lacoste",
       rating: "4.2",
       numReviews: 8,
@@ -54,8 +54,7 @@ const sampleData = {
       rating: "3.6",
       numReviews: 5,
       stock: 10,
-      description:
-        "A tricolour design brings a distinctive edge to these lightweight tracksuit pants made of diamond taffeta. ",
+      description: "    ",
     },
   ],
 };
